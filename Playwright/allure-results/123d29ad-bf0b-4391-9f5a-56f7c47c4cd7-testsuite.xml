@@ -1,0 +1,69 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1641258610712' stop='1641258629023'>
+    <name>compass e2e testing</name>
+    <title>compass e2e testing</title>
+    <test-cases>
+        <test-case start='1641258610713' status='passed' stop='1641258629022'>
+            <name>verify login and schedules functionality</name>
+            <title>verify login and schedules functionality</title>
+            <labels>
+                <label name='username' value='206707841'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1641258610714' status='passed' stop='1641258618424'>
+                    <name>Login to Compass</name>
+                    <title>Login to Compass</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1641258610714' status='passed' stop='1641258615689'>
+                            <name>launch compass</name>
+                            <title>launch compass</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1641258617652' status='passed' stop='1641258617691'>
+                            <name>Enter SSOID</name>
+                            <title>Enter SSOID</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1641258617691' status='passed' stop='1641258617719'>
+                            <name>Enter Password</name>
+                            <title>Enter Password</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1641258617722' status='passed' stop='1641258618424'>
+                            <name>Click on Submit Button</name>
+                            <title>Click on Submit Button</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1641258618424' status='passed' stop='1641258629020'>
+                    <name>schedules page</name>
+                    <title>schedules page</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1641258618424' status='passed' stop='1641258626516'>
+                            <name>click on schedules tab</name>
+                            <title>click on schedules tab</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1641258626516' status='passed' stop='1641258629020'>
+                            <name>click on schedules</name>
+                            <title>click on schedules</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <description type='text'>compass login and schedules page functionality</description>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

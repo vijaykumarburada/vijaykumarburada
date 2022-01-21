@@ -1,0 +1,8 @@
+{
+    "addNetworks" : ["BRAVO"],
+    "removeNetworks" : ["BRAVO", "USA Network"],
+    "FromDate" : "2021-12-03",
+    "FromTimeSlot" : "12:00p",
+    "toDate" : "2021-12-02",
+    "toTimeSlot" : "6:00a"
+}

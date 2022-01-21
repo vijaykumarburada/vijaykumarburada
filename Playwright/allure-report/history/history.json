@@ -1,0 +1,61 @@
+{
+  "c20a2767f8edb1065910d1283388696d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c99c074e19390cbc",
+      "status" : "failed",
+      "statusDetails" : "TimeoutError: page.waitForSelector: Timeout 30000ms exceeded.\n                =========================== logs ===========================\n                waiting for selector \"//div[@class='modal-dialog']/div[1]//span/following::input[3]\" to be visible\n                ============================================================",
+      "time" : {
+        "start" : 1641571723418,
+        "stop" : 1641571753986,
+        "duration" : 30568
+      }
+    } ]
+  },
+  "9c08d7ba3b147739bb613ebffe762bee" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a4230a229b6a3d75",
+      "status" : "failed",
+      "statusDetails" : "TimeoutError: page.click: Timeout 30000ms exceeded.\n                =========================== logs ===========================\n                waiting for selector \"//div[@class='modal-dialog']/div[1]//span/following::input[1]\"\n                  selector resolved to hidden <input type=\"button\" value=\"dev-NBCSSOLogin\" aria-label…/>\n                attempting click action\n                  waiting for element to be visible, enabled and stable\n                    element is not visible - waiting...\n                ============================================================",
+      "time" : {
+        "start" : 1641312766127,
+        "stop" : 1641312798372,
+        "duration" : 32245
+      }
+    } ]
+  },
+  "9315694cfc8ad842ccd3f5f41bee1cb3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ff4e5ef5f2b24f00",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641412013457,
+        "stop" : 1641412028446,
+        "duration" : 14989
+      }
+    } ]
+  }
+}

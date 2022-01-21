@@ -1,0 +1,132 @@
+{
+  "uid" : "bafd6c9989fc8288",
+  "name" : "verify login and titles functionality",
+  "fullName" : "compass e2e testing.verify login and titles functionality",
+  "historyId" : "c20a2767f8edb1065910d1283388696d",
+  "time" : {
+    "start" : 1641500188701,
+    "stop" : 1641500211933,
+    "duration" : 23232
+  },
+  "description" : "compass staging login and Titles page functionality",
+  "descriptionHtml" : "<p>compass staging login and Titles page functionality</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Login to Compass Staging",
+      "time" : {
+        "start" : 1641500188702,
+        "stop" : 0,
+        "duration" : -1641500188702
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "launch compass",
+        "time" : {
+          "start" : 1641500188702,
+          "stop" : 1641500190791,
+          "duration" : 2089
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Enter SSOID",
+        "time" : {
+          "start" : 1641500194025,
+          "stop" : 1641500194671,
+          "duration" : 646
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Enter Password",
+        "time" : {
+          "start" : 1641500194671,
+          "stop" : 1641500194715,
+          "duration" : 44
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Click on Submit Button",
+        "time" : {
+          "start" : 1641500194719,
+          "stop" : 1641500196261,
+          "duration" : 1542
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 4,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "username",
+    "value" : "206707841"
+  }, {
+    "name" : "suite",
+    "value" : "compass e2e testing"
+  }, {
+    "name" : "testClass",
+    "value" : "compass e2e testing"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify login and titles functionality"
+  }, {
+    "name" : "package",
+    "value" : "compass e2e testing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bafd6c9989fc8288.json",
+  "parameterValues" : [ ]
+}

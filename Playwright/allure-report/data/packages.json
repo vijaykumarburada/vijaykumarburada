@@ -1,0 +1,48 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "compass e2e testing",
+    "children" : [ {
+      "name" : "TC_01 - Navigation to bulk create screen",
+      "uid" : "a4230a229b6a3d75",
+      "parentUid" : "b70b28b9709c7c951166860d1ba1b0a4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1641312766127,
+        "stop" : 1641312798372,
+        "duration" : 32245
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "verify login and schedules functionality",
+      "uid" : "ff4e5ef5f2b24f00",
+      "parentUid" : "b70b28b9709c7c951166860d1ba1b0a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641412013457,
+        "stop" : 1641412028446,
+        "duration" : 14989
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "verify login and titles functionality",
+      "uid" : "c99c074e19390cbc",
+      "parentUid" : "b70b28b9709c7c951166860d1ba1b0a4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1641571723418,
+        "stop" : 1641571753986,
+        "duration" : 30568
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b70b28b9709c7c951166860d1ba1b0a4"
+  } ]
+}

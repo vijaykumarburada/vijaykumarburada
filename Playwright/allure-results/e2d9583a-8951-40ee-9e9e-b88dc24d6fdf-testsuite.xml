@@ -1,0 +1,50 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1642710342405' stop='1642710365564'>
+    <name>compass staging e2e testing</name>
+    <title>compass staging e2e testing</title>
+    <test-cases>
+        <test-case start='1642710342405' status='passed' stop='1642710365564'>
+            <name>verify login and titles functionality</name>
+            <title>verify login and titles functionality</title>
+            <labels>
+                <label name='username' value='206707841'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1642710342406' status='undefined'>
+                    <name>Login to Compass Staging</name>
+                    <title>Login to Compass Staging</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1642710342406' status='passed' stop='1642710345164'>
+                            <name>launch compass</name>
+                            <title>launch compass</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1642710348018' status='passed' stop='1642710348541'>
+                            <name>Enter SSOID</name>
+                            <title>Enter SSOID</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1642710348541' status='passed' stop='1642710348559'>
+                            <name>Enter Password</name>
+                            <title>Enter Password</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1642710348563' status='passed' stop='1642710349989'>
+                            <name>Click on Submit Button</name>
+                            <title>Click on Submit Button</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <description type='text'>compass staging login and Titles page functionality</description>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

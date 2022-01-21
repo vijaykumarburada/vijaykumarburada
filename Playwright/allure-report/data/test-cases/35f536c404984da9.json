@@ -1,0 +1,177 @@
+{
+  "uid" : "35f536c404984da9",
+  "name" : "verify login and schedules functionality",
+  "fullName" : "compass e2e testing.verify login and schedules functionality",
+  "historyId" : "9315694cfc8ad842ccd3f5f41bee1cb3",
+  "time" : {
+    "start" : 1640644157766,
+    "stop" : 1640644175819,
+    "duration" : 18053
+  },
+  "description" : "compass login and schedules page functionality",
+  "descriptionHtml" : "<p>compass login and schedules page functionality</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Login to Compass",
+      "time" : {
+        "start" : 1640644157767,
+        "stop" : 1640644167247,
+        "duration" : 9480
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "launch compass",
+        "time" : {
+          "start" : 1640644157767,
+          "stop" : 1640644163725,
+          "duration" : 5958
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Enter SSOID",
+        "time" : {
+          "start" : 1640644163725,
+          "stop" : 1640644166212,
+          "duration" : 2487
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Enter Password",
+        "time" : {
+          "start" : 1640644166212,
+          "stop" : 1640644166266,
+          "duration" : 54
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Click on Submit Button",
+        "time" : {
+          "start" : 1640644166271,
+          "stop" : 1640644167247,
+          "duration" : 976
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 4,
+      "hasContent" : true
+    }, {
+      "name" : "schedules page",
+      "time" : {
+        "start" : 1640644167247,
+        "stop" : 1640644175818,
+        "duration" : 8571
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "click on schedules tab",
+        "time" : {
+          "start" : 1640644167248,
+          "stop" : 1640644174467,
+          "duration" : 7219
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "click on schedules",
+        "time" : {
+          "start" : 1640644174467,
+          "stop" : 1640644175818,
+          "duration" : 1351
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 8,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "username",
+    "value" : "206707841"
+  }, {
+    "name" : "suite",
+    "value" : "compass e2e testing"
+  }, {
+    "name" : "testClass",
+    "value" : "compass e2e testing"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify login and schedules functionality"
+  }, {
+    "name" : "package",
+    "value" : "compass e2e testing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "35f536c404984da9.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,31 @@
+[ {
+  "uid" : "c99c074e19390cbc",
+  "name" : "verify login and titles functionality",
+  "time" : {
+    "start" : 1641571723418,
+    "stop" : 1641571753986,
+    "duration" : 30568
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ff4e5ef5f2b24f00",
+  "name" : "verify login and schedules functionality",
+  "time" : {
+    "start" : 1641412013457,
+    "stop" : 1641412028446,
+    "duration" : 14989
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a4230a229b6a3d75",
+  "name" : "TC_01 - Navigation to bulk create screen",
+  "time" : {
+    "start" : 1641312766127,
+    "stop" : 1641312798372,
+    "duration" : 32245
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

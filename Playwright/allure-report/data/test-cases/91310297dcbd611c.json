@@ -1,0 +1,168 @@
+{
+  "uid" : "91310297dcbd611c",
+  "name" : "TC_01 - Navigation to bulk create screen",
+  "fullName" : "compass e2e testing.TC_01 - Navigation to bulk create screen",
+  "historyId" : "9c08d7ba3b147739bb613ebffe762bee",
+  "time" : {
+    "start" : 1641258610862,
+    "stop" : 1641258630823,
+    "duration" : 19961
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "launch compass",
+      "time" : {
+        "start" : 1641258610864,
+        "stop" : 1641258616575,
+        "duration" : 5711
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Login to Compass",
+      "time" : {
+        "start" : 1641258616575,
+        "stop" : 1641258618700,
+        "duration" : 2125
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Enter SSOID",
+        "time" : {
+          "start" : 1641258617993,
+          "stop" : 1641258618029,
+          "duration" : 36
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Enter Password",
+        "time" : {
+          "start" : 1641258618029,
+          "stop" : 1641258618060,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Click on Submit Button",
+        "time" : {
+          "start" : 1641258618066,
+          "stop" : 1641258618700,
+          "duration" : 634
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "click on schedules tab",
+      "time" : {
+        "start" : 1641258618701,
+        "stop" : 1641258626546,
+        "duration" : 7845
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "click on Bulk Create",
+      "time" : {
+        "start" : 1641258626546,
+        "stop" : 1641258630563,
+        "duration" : 4017
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "562b960bb364318d",
+      "name" : "Bulk Create page",
+      "source" : "562b960bb364318d.png",
+      "type" : "image/png",
+      "size" : 66940
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "username",
+    "value" : "206707841"
+  }, {
+    "name" : "suite",
+    "value" : "compass e2e testing"
+  }, {
+    "name" : "testClass",
+    "value" : "compass e2e testing"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_01 - Navigation to bulk create screen"
+  }, {
+    "name" : "package",
+    "value" : "compass e2e testing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "91310297dcbd611c.json",
+  "parameterValues" : [ ]
+}

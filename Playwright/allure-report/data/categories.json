@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "TimeoutError: page.click: Timeout 30000ms exceeded.\n                =========================== logs ===========================\n                waiting for selector \"//div[@class='modal-dialog']/div[1]//span/following::input[1]\"\n                  selector resolved to hidden <input type=\"button\" value=\"dev-NBCSSOLogin\" aria-label…/>\n                attempting click action\n                  waiting for element to be visible, enabled and stable\n                    element is not visible - waiting...\n                ============================================================",
+      "children" : [ {
+        "name" : "TC_01 - Navigation to bulk create screen",
+        "uid" : "a4230a229b6a3d75",
+        "parentUid" : "fbc72a5241d4577cf6c602a56d012f6a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1641312766127,
+          "stop" : 1641312798372,
+          "duration" : 32245
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fbc72a5241d4577cf6c602a56d012f6a"
+    }, {
+      "name" : "TimeoutError: page.waitForSelector: Timeout 30000ms exceeded.\n                =========================== logs ===========================\n                waiting for selector \"//div[@class='modal-dialog']/div[1]//span/following::input[3]\" to be visible\n                ============================================================",
+      "children" : [ {
+        "name" : "verify login and titles functionality",
+        "uid" : "c99c074e19390cbc",
+        "parentUid" : "db3a9655b43253040e6c7852b1ba4317",
+        "status" : "failed",
+        "time" : {
+          "start" : 1641571723418,
+          "stop" : 1641571753986,
+          "duration" : 30568
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "db3a9655b43253040e6c7852b1ba4317"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

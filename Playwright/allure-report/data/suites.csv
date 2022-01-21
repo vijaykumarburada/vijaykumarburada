@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Fri Jan 07 10:08:43 CST 2022","Fri Jan 07 10:09:13 CST 2022","30568","","compass e2e testing","","compass e2e testing","verify login and titles functionality","verify login and titles functionality","compass staging login and Titles page functionality"
+"passed","Wed Jan 05 13:46:53 CST 2022","Wed Jan 05 13:47:08 CST 2022","14989","","compass e2e testing","","compass e2e testing","verify login and schedules functionality","verify login and schedules functionality","compass staging login and Titles page functionality"
+"failed","Tue Jan 04 10:12:46 CST 2022","Tue Jan 04 10:13:18 CST 2022","32245","","compass e2e testing","","compass e2e testing","TC_01 - Navigation to bulk create screen","TC_01 - Navigation to bulk create screen",""

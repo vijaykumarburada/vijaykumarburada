@@ -1,0 +1,151 @@
+{
+  "uid" : "4fb5856068ad8b",
+  "name" : "TC_01 - Navigation to bulk create screen",
+  "fullName" : "compass e2e testing.TC_01 - Navigation to bulk create screen",
+  "historyId" : "9c08d7ba3b147739bb613ebffe762bee",
+  "time" : {
+    "start" : 1640398742600,
+    "stop" : 1640398792779,
+    "duration" : 50179
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: page.click: Target closed\n                =========================== logs ===========================\n                waiting for selector \"#mainNavTabs > li:nth-child(6) > a >span:nth-child(2)\"\n                ============================================================",
+  "statusTrace" : "page.click: Target closed\n                =========================== logs ===========================\n                waiting for selector \"#mainNavTabs > li:nth-child(6) > a >span:nth-child(2)\"\n                ============================================================\n                    at BulkCreatePage.<anonymous> (C:\\Users\\206707841\\Downloads\\FinanceConsolidation\\FinanceConsolidation\\Playwright\\page\\BulkCreate.page.ts:149:26)\n                    at fulfilled (C:\\Users\\206707841\\Downloads\\FinanceConsolidation\\FinanceConsolidation\\Playwright\\page\\BulkCreate.page.ts:5:58)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: page.click: Target closed\n                =========================== logs ===========================\n                waiting for selector \"#mainNavTabs > li:nth-child(6) > a >span:nth-child(2)\"\n                ============================================================",
+    "statusTrace" : "page.click: Target closed\n                =========================== logs ===========================\n                waiting for selector \"#mainNavTabs > li:nth-child(6) > a >span:nth-child(2)\"\n                ============================================================\n                    at BulkCreatePage.<anonymous> (C:\\Users\\206707841\\Downloads\\FinanceConsolidation\\FinanceConsolidation\\Playwright\\page\\BulkCreate.page.ts:149:26)\n                    at fulfilled (C:\\Users\\206707841\\Downloads\\FinanceConsolidation\\FinanceConsolidation\\Playwright\\page\\BulkCreate.page.ts:5:58)",
+    "steps" : [ {
+      "name" : "launch compass",
+      "time" : {
+        "start" : 1640398742601,
+        "stop" : 1640398768209,
+        "duration" : 25608
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Login to Compass",
+      "time" : {
+        "start" : 1640398768210,
+        "stop" : 1640398776929,
+        "duration" : 8719
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Enter SSOID",
+        "time" : {
+          "start" : 1640398768210,
+          "stop" : 1640398776818,
+          "duration" : 8608
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Enter Password",
+        "time" : {
+          "start" : 1640398776818,
+          "stop" : 1640398776846,
+          "duration" : 28
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Click on Submit Button",
+        "time" : {
+          "start" : 1640398776849,
+          "stop" : 1640398776929,
+          "duration" : 80
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "click on schedules tab",
+      "time" : {
+        "start" : 1640398776929,
+        "stop" : 0,
+        "duration" : -1640398776929
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "username",
+    "value" : "206641233"
+  }, {
+    "name" : "suite",
+    "value" : "compass e2e testing"
+  }, {
+    "name" : "testClass",
+    "value" : "compass e2e testing"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC_01 - Navigation to bulk create screen"
+  }, {
+    "name" : "package",
+    "value" : "compass e2e testing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4fb5856068ad8b.json",
+  "parameterValues" : [ ]
+}

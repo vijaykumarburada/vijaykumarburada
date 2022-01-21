@@ -1,0 +1,166 @@
+{
+  "uid" : "14eb5c2f17f84402",
+  "name" : "verify login and schedules functionality",
+  "fullName" : "compass e2e testing.verify login and schedules functionality",
+  "historyId" : "9315694cfc8ad842ccd3f5f41bee1cb3",
+  "time" : {
+    "start" : 1640451623929,
+    "stop" : 1640451664081,
+    "duration" : 40152
+  },
+  "description" : "compass login and schedules page functionality",
+  "descriptionHtml" : "<p>compass login and schedules page functionality</p>\n",
+  "status" : "failed",
+  "statusMessage" : "TimeoutError: page.click: Timeout 30000ms exceeded.\n                =========================== logs ===========================\n                waiting for selector \"#mainNavTabs > li:nth-child(6) > a >span:nth-child(2)\"\n                ============================================================",
+  "statusTrace" : "page.click: Timeout 30000ms exceeded.\n                =========================== logs ===========================\n                waiting for selector \"#mainNavTabs > li:nth-child(6) > a >span:nth-child(2)\"\n                ============================================================\n                    at SchedulePage.<anonymous> (C:\\Users\\206707841\\Downloads\\FinanceConsolidation\\FinanceConsolidation\\Playwright\\page\\Schedule.page.ts:30:25)\n                    at fulfilled (C:\\Users\\206707841\\Downloads\\FinanceConsolidation\\FinanceConsolidation\\Playwright\\page\\Schedule.page.ts:5:58)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "TimeoutError: page.click: Timeout 30000ms exceeded.\n                =========================== logs ===========================\n                waiting for selector \"#mainNavTabs > li:nth-child(6) > a >span:nth-child(2)\"\n                ============================================================",
+    "statusTrace" : "page.click: Timeout 30000ms exceeded.\n                =========================== logs ===========================\n                waiting for selector \"#mainNavTabs > li:nth-child(6) > a >span:nth-child(2)\"\n                ============================================================\n                    at SchedulePage.<anonymous> (C:\\Users\\206707841\\Downloads\\FinanceConsolidation\\FinanceConsolidation\\Playwright\\page\\Schedule.page.ts:30:25)\n                    at fulfilled (C:\\Users\\206707841\\Downloads\\FinanceConsolidation\\FinanceConsolidation\\Playwright\\page\\Schedule.page.ts:5:58)",
+    "steps" : [ {
+      "name" : "Login to Compass",
+      "time" : {
+        "start" : 1640451623932,
+        "stop" : 1640451634066,
+        "duration" : 10134
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "launch compass",
+        "time" : {
+          "start" : 1640451623932,
+          "stop" : 1640451629842,
+          "duration" : 5910
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Enter SSOID",
+        "time" : {
+          "start" : 1640451629842,
+          "stop" : 1640451633878,
+          "duration" : 4036
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Enter Password",
+        "time" : {
+          "start" : 1640451633878,
+          "stop" : 1640451633916,
+          "duration" : 38
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Click on Submit Button",
+        "time" : {
+          "start" : 1640451633927,
+          "stop" : 1640451634066,
+          "duration" : 139
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 4,
+      "hasContent" : true
+    }, {
+      "name" : "schedules page",
+      "time" : {
+        "start" : 1640451634066,
+        "stop" : 0,
+        "duration" : -1640451634066
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "click on schedules tab",
+        "time" : {
+          "start" : 1640451634067,
+          "stop" : 0,
+          "duration" : -1640451634067
+        },
+        "status" : "unknown",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "username",
+    "value" : "206641233"
+  }, {
+    "name" : "suite",
+    "value" : "compass e2e testing"
+  }, {
+    "name" : "testClass",
+    "value" : "compass e2e testing"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify login and schedules functionality"
+  }, {
+    "name" : "package",
+    "value" : "compass e2e testing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "14eb5c2f17f84402.json",
+  "parameterValues" : [ ]
+}
